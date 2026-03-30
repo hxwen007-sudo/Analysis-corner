@@ -1,30 +1,31 @@
-title:               Celeste
-url:                 "https://hxwen007-sudo.github.io/Analysis-corner/""
-baseurl:             "/Analysis-corner"
+title:             Celeste
+url:               "https://hxwen007-sudo.github.io"
+baseurl:           "/Analysis-corner"
 
-markdown:            kramdown
-highlighter:         rouge
+markdown:          kramdown
+highlighter:       rouge
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+exclude:           ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
-permalink:           pretty
-paginate:            5
-paginate_path:       /blog/:num
+permalink:         pretty
+paginate:          5
+paginate_path:     /blog/:num
 
 blog:
   truncated_preview: false
 
 sass:
-  sass_dir:          _sass
-  style:             :compressed
+  sass_dir:        _sass
+  style:           :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:            Nico Elayda
+  url:             nicoelayda.github.io
+  email:           nico@elayda.com
 
 plugins:
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-gist
-  future: true
+
+future: true
